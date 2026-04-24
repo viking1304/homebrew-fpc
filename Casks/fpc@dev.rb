@@ -2,7 +2,7 @@ cask "fpc@dev" do
   arch arm: "aarch64", intel: "x86_64"
   fpc_compiler = on_arch_conditional arm: "ppca64", intel: "ppcx64"
 
-  version "3.3.1,aarch64"
+  version "3.3.1,gfa235b07a3"
   sha256 arm:   "de46ca598bf06882253c5c09615ef51092b7ac37ee89608b1c7bc4fdef44b042",
          intel: "7ecfbde7d4b7d9d7c800c83f3096e7af8ed4c0ee1a9e59e8cf31e02fd14c2de4"
 
