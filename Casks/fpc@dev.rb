@@ -2,9 +2,9 @@ cask "fpc@dev" do
   arch arm: "aarch64", intel: "x86_64"
   fpc_compiler = on_arch_conditional arm: "ppca64", intel: "ppcx64"
 
-  version "3.3.1,g7e7ab8d8e9"
-  sha256 arm:   "af440c75951aff2df8d8b92a7ca9a42a85b7cacb9792bffd84bc3c1a05f31098",
-         intel: "86f31a1ef518377062c9290907ac7cc57b87fa6796cb967acd2679b5d164254a"
+  version "3.3.1,gdf28424218"
+  sha256 arm:   "3aa43f91bd621bed9a46a26ff4c0f91e1c5a5fff8b320d92aee5df2d7480eebf",
+         intel: "3f307faf30fd150a34caacb2545a8f49061f40749aa0666303b75a970dab737d"
 
   url "https://github.com/viking1304/fpc-trunk/releases/download/v#{version.csv.first}-#{version.csv.second}/fpc-#{version.csv.first}-#{version.csv.second}-#{arch}-macosx.dmg"
   name "Free Pascal Compiler (trunk)"
